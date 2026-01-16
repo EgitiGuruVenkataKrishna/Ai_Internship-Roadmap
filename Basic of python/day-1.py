@@ -1,7 +1,7 @@
 ## Python functions and Async Basic
 
 def text_splitter(text:str,size:int=300)->list[str]:
-    l=[text[i:i+300] for i in range(0,len(text),size)]
+    l=[text[i:i+size] for i in range(0,len(text),size)]
     return l
 
 text=input("Enter a paragraph: ")
