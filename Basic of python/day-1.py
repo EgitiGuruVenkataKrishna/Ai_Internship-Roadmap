@@ -17,7 +17,7 @@ async def Alarm():
     """this function is a simple async finction which tells the time after 2 sec of calling 
     """
     await asyncio.sleep(2)
-    print("Alarming wake up!!!")
+    return ("Alarming wake up!!!")
 
 result=asyncio.run(Alarm())
-print(result)#This returns a None
+print(result)
