@@ -1,0 +1,1 @@
+Leaning of Agentic Ai and The Design Skills for a full stack Ai Systems
